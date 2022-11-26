@@ -1,0 +1,676 @@
+@font-face {
+    font-family: greenpeace;
+    src: url(wimp.ttf);
+}
+
+/**Header/NAV/LOGO*/
+
+header img {
+    height: 100px;
+    width: 400px;
+}
+
+header {
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
+    margin-bottom: none;
+    border-bottom: 1px solid rgba(246, 246, 246, 0.486);
+}
+
+.navtext {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav {
+   
+    background-color: #000000;
+    padding: 10px;
+}
+
+nav i {
+    padding: 5px;
+}
+
+.navtext:hover {
+    color: rgb(94, 187, 0);
+}
+
+
+
+
+/**Login*/
+
+
+.box {
+    width: 600px;
+    height: 1500px;
+    margin: 1px;
+    background: #000000;
+
+}
+
+
+.logincaja  {
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: row;
+    padding-top: 150px;
+    padding-bottom: 100%;
+    
+}
+
+
+
+
+
+.logincaja  .box{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.396);
+    width: 500px;
+    height: 675px;
+    padding: 50px;
+}
+
+.logincaja  h3 {
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(94, 187, 0);
+}
+
+.logincaja  label {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    display: block;
+    margin-top: 25px;
+}
+
+.logincaja  input {
+    width: 100%;
+}
+
+.logincaja  input[type="text"],
+.logincaja  input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(93, 187, 0);
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+.logincaja  input[type="submit"] {
+    margin-top: 40px;
+    padding: 10px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius:  0.375rem;
+    color: #ffffff;
+    background-color: #000000;
+
+}
+
+
+.logincaja  input[type="submit"]:hover{
+    color: rgb(94, 187, 0);
+    background-color: #000000af;
+}
+
+
+.logincaja  a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.logincaja  a:hover {
+    color: rgb(94, 187, 0);
+}
+
+.logincaja  label {
+            color: rgb(94, 187, 0);
+}
+.logincaja h4 {
+    color: rgb(94, 187, 0);
+}
+
+
+
+/**Registro*/
+
+
+.signUp  {
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: row;
+    height: 1300px;
+}
+
+
+
+
+
+.signUp form{
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.295);
+    width: 500px;
+    height: 850px;
+    padding: 50px;
+}
+
+.signUp h3 {
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(93, 187, 0);
+}
+
+.signUp label {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    display: block;
+    margin-top: 25px;
+}
+
+.signUp input {
+    width: 100%;
+}
+
+.signUp input[type="text"],
+.signUp input[type="password"],
+.signUp input[type="email"] {
+    border: none;
+    border-bottom: 1px solid rgb(93, 187, 0);
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+.signUp input[type="submit"] {
+    margin-top: 40px;
+    padding: 10px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:  0.375rem;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+.signUp input[type="submit"]:hover{
+    color: rgb(93, 187, 0);
+    background-color: #000000;
+    border: 1px solid rgb(93, 187, 0);
+}
+
+
+.signUp label {
+        color: rgb(93, 187, 0); 
+}
+
+
+
+/**Usuario*/
+
+.seccion-perfil-usuario .perfil-usuario-body,
+.seccion-perfil-usuario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-perfil-usuario .perfil-usuario-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#000000, transparent);
+    margin-bottom: 1.25rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 17rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px 25px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.seccion-perfil-usuario .perfil-usuario-portada .boton-portada i {
+    margin-right: 1rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #FFFFFF;
+    background-color: #DFE5F2;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 90px);
+    z-index: 1;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar img {
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.seccion-perfil-usuario .perfil-usuario-avatar .boton-avatar {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body {
+    width: 70%;
+    position: relative;
+    max-width: 750px;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body .titulo {
+    display: block;
+    width: 100%;
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+}
+
+.seccion-perfil-usuario .perfil-usuario-body .texto {
+    color: #848484;
+    font-size: 0.95em;
+}
+
+.seccion-perfil-usuario .perfil-usuario-footer,
+.seccion-perfil-usuario .perfil-usuario-bio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.seccion-perfil-usuario .perfil-usuario-bio {
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.seccion-perfil-usuario .lista-datos {
+    width: 50%;
+    list-style: none;
+}
+
+.seccion-perfil-usuario .lista-datos li {
+    padding: 5px 0;
+}
+
+.seccion-perfil-usuario .lista-datos li>.icono {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.seccion-perfil-usuario .redes-sociales {
+    position: absolute;
+    right: calc(0px - 50px - 1rem);
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-perfil-usuario .redes-sociales .boton-redes {
+    border: 0;
+    background-color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    font-size: 1.3rem;
+}
+
+.seccion-perfil-usuario .redes-sociales .boton-redes+.boton-redes {
+    margin-top: .5rem;
+}
+
+.seccion-perfil-usuario .boton-redes.facebook {
+    background-color: #5955FF;
+}
+
+.seccion-perfil-usuario .boton-redes.twitter {
+    background-color: #35E1BF;
+}
+
+.seccion-perfil-usuario .boton-redes.instagram {
+    background: linear-gradient(45deg, #FF2DFD, #40A7FF);
+}
+
+
+
+
+
+
+/**yagua*/
+
+.noticiaInicial {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.textonoti {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+    font-size: 20px;
+}
+.textonoti h2 {
+    font-family: greenpeace;
+    font-size: 32px;
+}
+
+.yagua{
+    filter: brightness(60%);
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.textonoti a {
+    font-family: greenpeace;
+    font-size: 30px;
+    margin-top: 40px;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius:  0.375rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.textonoti a:hover {
+    color: rgb(93, 187, 0);
+}
+
+/**content*/
+
+
+/** Luchas */
+
+.luchas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(#c1c1c1, transparent);
+    
+    
+}
+
+.luchas h2 {
+    text-align: center;
+    font-family: greenpeace;
+    color: rgb(0, 0, 0);
+}
+
+.luchas h2:hover {
+    color: rgb(93, 187, 0);
+}
+
+
+.caja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imgytext h5{
+    text-align: center; 
+}
+
+.oceano {
+    color: #1994ff;
+}
+
+.bosques {
+    color: rgb(24, 212, 24);
+}
+
+.contaminacion {
+    color: rgb(182, 182, 182);
+}
+
+.clima {
+    color: rgb(61, 217, 228);
+}
+
+/**NOTICIAS*/
+
+html {
+    font-size: 14px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  div, h2, p, figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    margin: 0 auto;
+    max-width: 1340px;
+    padding: 20px;
+  }
+  
+  .columns {
+    display: flex;
+  }
+  
+  .column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .main-column {
+    flex: 3;
+  }
+  
+  .nested-column {
+    flex: 2;
+  }
+  
+  .article {
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-basis: auto;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 35px;
+  }
+  
+  .article-image {
+    display: block;
+    padding-top: 75%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .article-image img {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 35px;
+  }
+  
+  .article-image.is-3by2 {
+    padding-top: 66.6666%;
+  }
+  
+  .article-image.is-16by9 {
+    padding-top: 56.25%;
+  }
+  
+  .article-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .article-title {
+    font-family: greenpeace;
+    color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .article-content {
+    flex: 1;
+    font-size: 17px;
+  }
+
+  .article:hover {
+    color:rgb(93, 187, 0)
+  }
+  
+  .article-info {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+
+/**NOTICIA 1*/
+
+.noti1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 800px;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
+}
+
+.noti1 img {
+    filter: brightness(30%);
+    width: 100%;
+    object-fit: cover;
+    height: 900px;
+    border-radius: 35px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: #fff;
+    width: 800px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 50px;
+
+}
+
+.textos h2 {
+    font-family: greenpeace;
+    color: rgb(93, 187, 0);
+}
+
+.textos a {
+    font-family: greenpeace;
+    padding-top: 50px;
+    color: blue;
+    text-decoration: none;
+}
+
+.textos a:hover {
+    color: rgb(93, 187, 0);
+}
+
+.textos span {
+    padding-top: 50px;
+    color: #35E1BF;
+}
