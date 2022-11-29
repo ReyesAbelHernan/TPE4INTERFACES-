@@ -20,22 +20,29 @@
             <li class="nav-item"><a href="#" class="navtext"><i class="bi bi-coin"></i>Dona Ahora</a></li>
           </ul>
           <ul class="nav">
+            <li class="nav-item"><a href="login.html" class="navtext"><i class="bi bi-people"></i>Login</a></li>
             <li class="nav-item"><a href="register.html" class="navtext"><i class="bi bi-people"></i>Registrarse</a></li>
           </ul>
         </div>
     </nav>
+
+    <header class="py-3">
+      <div class="container d-flex flex-wrap justify-content-center">
+          <img src="https://www.greenpeace.org/eu-unit/wp-content/themes/planet4-master-theme/images/gp-logo.svg">
+      </div>
+  </header>
 <body>
   <div class="logincaja">
     <div class="box" >
-        <h3>LOGIN</h3>
-        <label for="username">Username</label>
-        <input type="text" placeholder="Enter Username" name="username" id="usuario">
+        <h3>Ingresar</h3>
+        <label for="username">Usuario</label>
+        <input type="text" placeholder="Ingrese Usuario" name="username" id="usuario">
 
-        <label for="password">Password</label>
-        <input type="password" placeholder="Enter Password" name='password' id="contraseña">
+        <label for="password">Contraseña</label>
+        <input type="password" placeholder="Ingrese Contraseña" name='password' id="contraseña">
 
         <input type="submit" onclick="login()">
-        <a href="register.html">Do you have an account?</a>
+        <a href="register.html">No tienes una cuenta?</a>
         
         <label id="mensaje" class="mensaje"></label>
     </div>

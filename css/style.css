@@ -3,6 +3,7 @@
     src: url(wimp.ttf);
 }
 
+
 /**Header/NAV/LOGO*/
 
 header img {
@@ -17,6 +18,7 @@ header {
 }
 
 .navtext {
+    font-family: greenpeace;
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -25,7 +27,7 @@ header {
 
 nav {
    
-    background-color: #000000;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
     padding: 10px;
 }
 
@@ -62,7 +64,8 @@ nav i {
     overflow: auto;
     flex-direction: row;
     padding-top: 150px;
-    padding-bottom: 100%;
+    padding-bottom: 350px;
+    font-family: greenpeace;
     
 }
 
@@ -119,8 +122,8 @@ nav i {
     font-size: 20px;
     text-align: center;
     border: none;
-    border: 1px solid #ffffff;
-    border-radius:  0.375rem;
+    border: 3px solid #ffffff;
+    border-radius: 35px;
     color: #ffffff;
     background-color: #000000;
 
@@ -167,6 +170,7 @@ nav i {
     overflow: auto;
     flex-direction: row;
     height: 1300px;
+    font-family: greenpeace;
 }
 
 
@@ -224,10 +228,10 @@ nav i {
     font-size: 20px;
     text-align: center;
     border: none;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius:  0.375rem;
     color: #ffffff;
     background-color: #000000;
+    border: 3px solid #ffffff;
+    border-radius: 35px;
 }
 
 
@@ -252,14 +256,23 @@ nav i {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
+    
 }
+.seccion-perfil-usuario {
+    padding: 50px;
+    font-family: greenpeace;
+    font-size: 30px;
+    
+}
+
 
 .seccion-perfil-usuario .perfil-usuario-header {
     width: 100%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(#000000, transparent);
     margin-bottom: 1.25rem;
+    
 }
 
 .seccion-perfil-usuario .perfil-usuario-portada {
@@ -268,6 +281,8 @@ nav i {
     width: 90%;
     height: 17rem;
     border-radius: 0 0 20px 20px;
+    
+
 }
 
 .seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
@@ -280,6 +295,7 @@ nav i {
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
     cursor: pointer;
+    
 }
 
 .seccion-perfil-usuario .perfil-usuario-portada .boton-portada i {
@@ -300,6 +316,7 @@ nav i {
     bottom: -40px;
     left: calc(50% - 90px);
     z-index: 1;
+    
 }
 
 .seccion-perfil-usuario .perfil-usuario-avatar img {
@@ -332,11 +349,13 @@ nav i {
     width: 100%;
     font-size: 1.75em;
     margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255)
 }
 
 .seccion-perfil-usuario .perfil-usuario-body .texto {
-    color: #848484;
+    color: rgb(255, 255, 255);
     font-size: 0.95em;
+    
 }
 
 .seccion-perfil-usuario .perfil-usuario-footer,
@@ -345,7 +364,7 @@ nav i {
     flex-wrap: wrap;
     padding: 1.5rem 2rem;
     box-shadow: 0 0 12px rgba(0, 0, 0, .2);
-    background-color: #fff;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
     border-radius: 15px;
     width: 100%;
 }
@@ -409,9 +428,30 @@ nav i {
     background: linear-gradient(45deg, #FF2DFD, #40A7FF);
 }
 
+.perfil-usuario-footer {
+    color: white;
+    border-radius: 35px;
+    border: 3px solid #ffffff;
+}
+.perfil-usuario-bio {
+    border-radius: 35px;
+    border: 3px solid #ffffff;
+}
 
+.lista-datos a {
+    text-decoration: none;
+    color: white
+}
 
+.lista-datos a:hover {
+    text-decoration: none;
+    color: white
+}
+/**content*/
 
+.content {
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
+}
 
 
 /**yagua*/
@@ -454,13 +494,13 @@ nav i {
     color: #ffffff;
     text-decoration: none;
 }
-
+.textonoti  p {
+    font-family: greenpeace;
+    font-size: 20px;
+}
 .textonoti a:hover {
     color: rgb(93, 187, 0);
 }
-
-/**content*/
-
 
 /** Luchas */
 
@@ -470,15 +510,14 @@ nav i {
     padding-top: 40px;
     width: 100%;
     justify-content: center;
-    background: linear-gradient(#c1c1c1, transparent);
     
-    
+    font-family: greenpeace;
 }
 
 .luchas h2 {
     text-align: center;
     font-family: greenpeace;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .luchas h2:hover {
@@ -490,11 +529,27 @@ nav i {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 30px; ;
 }
 
 .imgytext h5{
-    text-align: center; 
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
 }
+.imgytext {
+    padding: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 35px;
+}
+
+.imgytext img {
+    display: flex;
+    align-content: center;
+    padding: 5px;
+    margin: 15px;
+}
+
 
 .oceano {
     color: #1994ff;
@@ -561,7 +616,9 @@ html {
     margin: 10px;
     text-decoration: none;
     border-radius: 35px;
-  }
+    border: 3px solid #ffffff;
+}
+  
   
   .article-image {
     display: block;
@@ -593,6 +650,7 @@ html {
     flex: 1;
     flex-direction: column;
     padding: 20px;
+    
   }
   
   .article-title {
@@ -651,7 +709,7 @@ html {
     font-size: 20px;
     text-align: justify;
     padding: 50px;
-
+    font-family: greenpeace;
 }
 
 .textos h2 {
@@ -673,4 +731,89 @@ html {
 .textos span {
     padding-top: 50px;
     color: #35E1BF;
+}
+.article-content {
+    font-family: greenpeace;
+}
+
+.article-info {
+    font-family: greenpeace;
+}
+
+
+/**admin*/
+
+.listUser  {
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 62, 0));
+    margin: none;
+}
+
+
+.listUser section {
+    padding: 25px;
+    font-family: greenpeace;
+
+}
+
+
+.listUser input {
+    margin: 5px;
+    margin-top: 15px;
+    border: none;
+    border: 3px solid #ffffff;
+    border-radius: 35px;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+.listUser h2 {
+    margin: 12px;
+    padding: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+.listUser h4 {
+    margin: 12px;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.listUser p {
+    margin: 12px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.listUser input:hover {
+    color: rgb(93, 187, 0);
+}
+
+
+
+.listUser h4 {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.col {
+    margin: 5px;
+
 }
